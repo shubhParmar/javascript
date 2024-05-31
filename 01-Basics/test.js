@@ -24,7 +24,7 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
 
 "use strict"; // to treat all js code as newer version
 
-//Datatypes types
+//**************************Datatypes types
 // number => 2 to power 53
 // bigint
 // string => ""
@@ -32,6 +32,30 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
 // null => standalone value , not 0
 // undefined => 
 // symbol => to provide uniqueness in variables 
-
-
 // object
+
+let valueInNumber = Number(score) // type conversion of a number 
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber);
+
+// "33" => 33
+// "33abc" => NaN,  but will give datatype as number
+//  true => 1; false => 0
+
+let isLoggedIn = "hitesh"
+
+let booleanIsLoggedIn = Boolean(isLoggedIn) // type conversion into number
+//  console.log(booleanIsLoggedIn);
+
+// 1 => true; 0 => false
+// "" => false
+// "hitesh" => true
+
+let someNumber = 33
+
+let stringNumber = String(someNumber) //type conversion to string
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+ /*********************operations */
+ 

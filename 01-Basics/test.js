@@ -17,9 +17,9 @@ accountEmail = "hc@hc.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
 
-console.log(accountId);
+//console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]) 
+//console.table([accountId, accountEmail, accountPassword, accountCity, accountState]) 
 // for consoling more than one value.
 
 "use strict"; // to treat all js code as newer version
@@ -34,7 +34,7 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
 // symbol => to provide uniqueness in variables 
 // object
 
-let valueInNumber = Number(score) // type conversion of a number 
+//let valueInNumber = Number(score) // type conversion of a number 
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
@@ -58,4 +58,22 @@ let stringNumber = String(someNumber) //type conversion to string
 // console.log(typeof stringNumber);
 
  /*********************operations */
- 
+
+// console.log("1" + 2);  =>12
+// console.log(1 + "2");  => 12
+// console.log("1" + 2 + 2);  =>122 operated by considering the first datatype which is string
+// console.log(1 + 2 + "2");  =>32 (first datatype is number)
+
+/*****************Comparisons */
+
+// console.log("2" > 1); => true
+// console.log("02" > 1); => true
+            // this is because the comparisons oprtors converts strings to number
+            
+// console.log(null > 0); => FALSE, as comparisons oprtors converts null to number(0)
+            // equality check(==) and comparisons (>,<,>=,<=) work differently
+
+// console.log(null == 0); =>FALSE, in equality, it is not converted as number(it is obect)
+
+// console.log(null >= 0); => true, converted to number (0)
+

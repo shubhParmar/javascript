@@ -25,6 +25,7 @@ accountCity = "Bengaluru"
 "use strict"; // to treat all js code as newer version
 
 //**************************Datatypes types
+
 // number => 2 to power 53
 // bigint
 // string => ""
@@ -77,3 +78,25 @@ let stringNumber = String(someNumber) //type conversion to string
 
 // console.log(null >= 0); => true, converted to number (0)
 
+
+
+//**********************Summary */
+/*Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+            const id= '123';
+            const anotherId = '123';
+            console.log(id === anotherId) => false
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object*/
+
+       

@@ -11,7 +11,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // }
 
-// coding.forEach(printMe)
+// coding.forEach(printMe) // only referencd is given so no () is used
 
 // coding.forEach( (item, index, arr)=> {
 //     console.log(item, index, arr);

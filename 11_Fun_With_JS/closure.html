@@ -64,7 +64,7 @@
 
             return function(){
                 document.body.style.backgroundColor = `${color}`
-            }
+            } // complete lexical scope of this function is returned
         }
 
         document.getElementById('orange').onclick = clickHandler("orange")
